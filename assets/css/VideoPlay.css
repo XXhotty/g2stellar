@@ -1,0 +1,29 @@
+/* 表示領域 */
+.area {
+    display:inline-block;
+    backGround-color: rgba(255,255,255,0);
+    width: 320px;
+    height: 200px;
+    /*overflow: hidden;*/
+}
+/* 表示領域に合わせてサイズと余白を設定 */
+.marquee {
+    display:inline-block;
+    width: 320px;
+    padding-left: 320px;
+    white-space: nowrap;
+
+    animation-name: marquee;
+    animation-duration: 4.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes marquee {
+    from    {
+        transform: translate(0%);
+    }
+    100%,to {
+        transform: translate(-100%);
+    }
+}

@@ -7,9 +7,9 @@ $DBSERVER = "localhost";
 // データベース名
 $DBNAME = "board";
 // MySQLのユーザー名
-$DBUSER = "hotty";
-// MySQLパスワード
-$DBPASSWD = "hotta";
+$DBUSER = "user";
+// MySQード
+$DBPASSWD = "pass";
 
 ini_set('display_errors', "On");
 
